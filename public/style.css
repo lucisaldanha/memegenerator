@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	background-color: rgba(62.7, 57.3, 65.9, 0.3);
+	width: 100%;
+}
+/* Header styling*/
+header {
+	background-color: rgba(150, 105, 182, 0.5);
+	background-image: linear-gradient(to bottom right, rgba(64, 122, 191,0), rgba(64, 122, 191,1) );
+	height: 100px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+header > img {
+    height: 80%;
+    margin-left: 30px;
+}
+
+header > p {
+	margin-left: 30px;
+	font-size: 3em;
+	color: #676570;
+	font-family: VT323, sans-serif;
+	text-shadow: 3px 3px 4px rgba(150, 105, 182, 0.8);
+}
+/* Form styling*/
+.memeForm {
+	height: 3.5vh;
+	position: relative;
+	left: 15px;
+	margin:30px;
+	text-align: center;
+}
+
+}
+.memeForm > input {
+	padding: 2px;
+	border-radius: 6px;
+	height: 20px;
+}
+
+.memeForm > button {
+	background-color: rgba(150, 105, 182, 0.6);
+	color: #676570;
+	padding: 2px;
+	border-radius: 2px;
+	border-color: transparent;
+	margin-left: 2px;
+	font-family: VT323, monospace;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+}
+
+button:hover {
+	background-color: rgba(64, 122, 191,0.5);
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+
+/* Meme image styling*/
+.meme {
+	height: 80vh;
+	position: relative;
+	width: 100%;
+}
+
+.meme > img {
+	display: block;
+	height: 90%;
+	width: 95%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2.topText {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	text-align: center;
+
+}
+h2.bottomText {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+
+.meme > h2 {
+	font-family: impact, sans-serif;
+	font-size: 2em;
+	letter-spacing: 1px;
+	color: white;
+	text-transform: uppercase;
+	margin: 15px 0;
+	padding: 0 5px;
+	text-shadow: 
+		2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+/* Footer styling*/
+footer {
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	background-color: rgba(150, 105, 182, 0.5);
+	background-image: linear-gradient(to bottom right, rgba(64, 122, 191,0), rgba(64, 122, 191,1) );
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+footer > p {
+	font-family: VT323, sans-serif;
+	color: #676570;
+	font-size: 1.5em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 08px 0;
+}
