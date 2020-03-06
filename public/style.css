@@ -100,14 +100,16 @@ button:hover {
     position: relative;
     width: 90%;
     margin: auto;
-    height: 80vh;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
 }
 
 .meme > img {
 	/*height: 95%;
 	width: 95%;	*/
 	width: 100%;
-	max-height: 80vh;
+	max-height: 100vh;
 }
 
 h2.topText {
